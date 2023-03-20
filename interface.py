@@ -11,7 +11,7 @@ class Interface:
         self.auto_lock_check_box = Checkbox(x + 30, y + 80, "Auto Screen-Lock")
         self.anti_turtle_check_box = Checkbox(x + 30, y + 130, "Anti Turtle")
         self.start_button = Button(x + 30, y + 180, "START")
-        self.exit_button = Button(x + 220, y + 180, "EXIT")
+        self.exit_button = Button(x + 220, y + 180, "STOP")
         self.background_color = (255, 255, 255)
     
     def draw(self, image):
